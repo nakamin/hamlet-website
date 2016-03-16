@@ -1,2 +1,2 @@
-# hamlet-website
-Website for 11U Hamlet Act 2 project.
+# Awesome Hamlet website
+Website for 11U Hamlet Act 2 English project.
