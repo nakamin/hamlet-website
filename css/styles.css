@@ -92,19 +92,35 @@ h2 {
 .cf:after {
   clear: both; }
 
-.row_wrapper {
+#body {
   border-bottom: 4px solid #d5d5d5; }
-  .row_wrapper .rapper, .row_wrapper .rapper_text {
+  #body .rapper, #body .rapper_text {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%;
     padding: 2.35765%; }
-    .row_wrapper .rapper:last-child, .row_wrapper .rapper_text:last-child {
+    #body .rapper:last-child, #body .rapper_text:last-child {
       margin-right: 0; }
-  .row_wrapper .rapper_text {
+  #body .rapper_text {
     padding-top: 213px; }
-  .row_wrapper .rapper {
+  #body .rapper {
     border-right: 4px solid #d5d5d5; }
+
+#footer {
+  background-color: #e74c3c;
+  height: 100px;
+  width: 100%;
+  padding: 0; }
+  #footer p {
+    text-align: center;
+    line-height: 100px;
+    padding: 0;
+    margin: 0;
+    color: #d5d5d5;
+    font-size: 21px;
+    font-weight: bolder; }
+    #footer p g {
+      color: #66c492; }
 
 /*# sourceMappingURL=styles.css.map */
