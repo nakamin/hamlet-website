@@ -45,12 +45,6 @@ h2 {
   background-size: auto; }
   #banner header {
     padding: 2rem 0; }
-  #banner #logo {
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 1.35rem;
-    float: left;
-    margin: 0; }
   #banner nav {
     float: right; }
     #banner nav a {
