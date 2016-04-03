@@ -2,18 +2,16 @@
   background-color: #e74c3c;
   background-image: url(../img/hamlet_design.png);
   background-repeat: no-repeat;
-  background-size: cover;
-}
+  background-size: cover; }
 
 nav {
   float: right;
-  padding: 0 20px;
-}
+  padding: 0 20px; }
 
 strong {
-  font-family: brandon_grotesquebold;
-}
+  font-family: brandon_grotesquebold; }
 
 h1 {
-  font-family: brandon_grotesque_regularRg;
-}
+  font-family: brandon_grotesque_regularRg; }
+
+/*# sourceMappingURL=styles.css.map */
