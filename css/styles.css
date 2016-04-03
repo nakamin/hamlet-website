@@ -6,6 +6,17 @@ body {
   max-width: 90%;
   margin: 0 auto; }
 
+.button {
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  padding: .5rem 3rem;
+  font-weight: 100;
+  font-family: "brandon_grotesquebold";
+  color: #ffffff;
+  text-decoration: none;
+  background: #66c492; }
+
 #banner {
   background-color: #e74c3c;
   background-image: url(../img/hamlet_design.png);
@@ -19,17 +30,44 @@ body {
     font-size: 1.35rem;
     float: left;
     margin: 0; }
+  #banner nav {
+    float: right; }
+    #banner nav a {
+      color: #ffffff;
+      font-weight: 700;
+      text-decoration: none;
+      margin-left: 2rem; }
+  #banner .content {
+    padding: 12.5rem 0 14.5rem 0;
+    width: 800px;
+    float: right; }
+    #banner .content .title, #banner .content .sub_title, #banner .content .button_wrapper {
+      color: #ffffff;
+      text-align: center;
+      font-family: brandon_grotesque_regularRg;
+      line-height: 1; }
+      #banner .content .title .button, #banner .content .sub_title .button, #banner .content .button_wrapper .button {
+        font-size: 36px;
+        box-shadow: -10px 10px 0px 0px rgba(0, 0, 0, 0.14); }
+    #banner .content .title {
+      font-size: 79px;
+      font-weight: 100;
+      font-weight: lighter;
+      margin: 0; }
+    #banner .content .sub_title {
+      font-weight: 100;
+      font-size: 36px; }
+    #banner .content .button_wrapper {
+      margin: 3rem 0; }
+  #banner strong {
+    font-family: brandon_grotesquebold;
+    font-weight: 200; }
 
-nav {
-  float: right; }
-  nav a {
-    color: #ffffff;
-    font-weight: 700; }
+.cf::before, .cf:after {
+  content: "";
+  display: table; }
 
-strong {
-  font-family: brandon_grotesquebold; }
-
-h1 {
-  font-family: brandon_grotesque_regularRg; }
+.cf:after {
+  clear: both; }
 
 /*# sourceMappingURL=styles.css.map */

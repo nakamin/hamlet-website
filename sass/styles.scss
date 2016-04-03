@@ -20,6 +20,18 @@ body {
     margin: 0 auto;
 }
 
+.button {
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    padding: .5rem 3rem;
+    font-weight: 100;
+    font-family: $brandonbold;
+    color: $white;
+    text-decoration: none;
+    background: $green;
+}
+
 //---------------------Banner Styles-----------------------//
 #banner {
     background-color: $red;
@@ -36,20 +48,55 @@ body {
         float: left;
         margin: 0;
     }
-}
+    nav {
+        float: right;
+        a {
+            color: $white;
+            font-weight: 700;
+            text-decoration: none;
+            margin-left: 2rem;
+        }
+    }
+    .content {
+        padding: 12.5rem 0 14.5rem 0;
+        width: 800px;
+        float: right;
+        .title, .sub_title, .button_wrapper {
+            color: $white;
+            text-align: center;
+            font-family: brandon_grotesque_regularRg;
+            line-height: 1;
+            .button {
+                font-size: 36px;
+                box-shadow: -10px 10px 0px 0px rgba(0,0,0,0.14);
+            }
+        }
+        .title {
+            font-size: 79px;
+            font-weight: 100;
+            font-weight: lighter;
+            margin: 0;
+        }
+        .sub_title {
+            font-weight: 100;
+            font-size: 36px
+        }
+        .button_wrapper {
+            margin: 3rem 0;
+        }
+    }
 
-nav {
-    float: right;
-    a {
-        color: $white;
-        font-weight: 700;
+    strong {
+        font-family: brandon_grotesquebold;
+        font-weight: 200;
     }
 }
 
-strong {
-    font-family: brandon_grotesquebold
+.cf::before, .cf:after {
+    content: "";
+    display: table;
 }
 
-h1 {
-    font-family: brandon_grotesque_regularRg
+.cf:after {
+    clear:both;
 }
