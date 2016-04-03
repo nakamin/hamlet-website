@@ -34,13 +34,15 @@ h2 {
   font-family: "brandon_grotesquebold";
   font-size: 52px;
   color: #636363;
-  font-weight: 100; }
+  font-weight: 100;
+  margin-top: 0;
+  padding-top: 0; }
 
 #banner {
   background-color: #e74c3c;
   background-image: url(../img/hamlet_design.png);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: auto; }
   #banner header {
     padding: 2rem 0; }
   #banner #logo {
@@ -58,7 +60,7 @@ h2 {
       margin-left: 2rem;
       font-size: 1.35rem; }
   #banner .content {
-    padding: 12.5rem 0 11rem 0;
+    padding: 12.5rem 0 13.5rem 0;
     width: 800px;
     float: right; }
     #banner .content .title, #banner .content .sub_title, #banner .content .button_wrapper {
@@ -89,5 +91,20 @@ h2 {
 
 .cf:after {
   clear: both; }
+
+.row_wrapper {
+  border-bottom: 4px solid #d5d5d5; }
+  .row_wrapper .rapper, .row_wrapper .rapper_text {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    padding: 2.35765%; }
+    .row_wrapper .rapper:last-child, .row_wrapper .rapper_text:last-child {
+      margin-right: 0; }
+  .row_wrapper .rapper_text {
+    padding-top: 213px; }
+  .row_wrapper .rapper {
+    border-right: 4px solid #d5d5d5; }
 
 /*# sourceMappingURL=styles.css.map */

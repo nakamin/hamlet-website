@@ -47,6 +47,8 @@ h2 {
     font-size: 52px;
     color: $title;
     font-weight: 100;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 //---------------------Banner Styles-----------------------//
@@ -54,7 +56,7 @@ h2 {
     background-color: $red;
     background-image: url(../img/hamlet_design.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     header {
         padding: 2rem 0;
     }
@@ -76,7 +78,7 @@ h2 {
         }
     }
     .content {
-        padding: 12.5rem 0 11rem 0;
+        padding: 12.5rem 0 13.5rem 0;
         width: 800px;
         float: right;
         .title, .sub_title, .button_wrapper {
@@ -120,3 +122,16 @@ h2 {
 }
 
 //-------------Body Styles----------------//
+.row_wrapper {
+    border-bottom: 4px solid $gray_grid;
+    .rapper, .rapper_text {
+        @include span-columns(6);
+        @include pad();
+    }
+    .rapper_text {
+        padding-top: 213px;
+    }
+    .rapper {
+        border-right: 4px solid $gray_grid;
+    }
+}
