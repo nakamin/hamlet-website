@@ -1,3 +1,9 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 body {
   font-family: "brandon_grotesque_regularRg"; }
 
@@ -10,12 +16,25 @@ body {
   border: none;
   outline: none;
   border-radius: 2rem;
-  padding: .5rem 3rem;
+  padding: .5rem 3.25rem;
   font-weight: 100;
+  font-size: 29px;
   font-family: "brandon_grotesquebold";
   color: #ffffff;
   text-decoration: none;
   background: #66c492; }
+
+p {
+  width: 655px;
+  font-size: 37px;
+  color: #9d9ab1;
+  font-weight: 100; }
+
+h2 {
+  font-family: "brandon_grotesquebold";
+  font-size: 52px;
+  color: #636363;
+  font-weight: 100; }
 
 #banner {
   background-color: #e74c3c;
@@ -36,9 +55,10 @@ body {
       color: #ffffff;
       font-weight: 700;
       text-decoration: none;
-      margin-left: 2rem; }
+      margin-left: 2rem;
+      font-size: 1.35rem; }
   #banner .content {
-    padding: 12.5rem 0 14.5rem 0;
+    padding: 12.5rem 0 11rem 0;
     width: 800px;
     float: right; }
     #banner .content .title, #banner .content .sub_title, #banner .content .button_wrapper {
