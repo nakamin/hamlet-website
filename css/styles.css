@@ -1,3 +1,6 @@
+body {
+  font-family: "brandon_grotesque_regularRg"; }
+
 .wrapper {
   width: 1440px;
   max-width: 90%;
@@ -8,10 +11,20 @@
   background-image: url(../img/hamlet_design.png);
   background-repeat: no-repeat;
   background-size: cover; }
+  #banner header {
+    padding: 2rem 0; }
+  #banner #logo {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.35rem;
+    float: left;
+    margin: 0; }
 
 nav {
-  float: right;
-  padding: 0 20px; }
+  float: right; }
+  nav a {
+    color: #ffffff;
+    font-weight: 700; }
 
 strong {
   font-family: brandon_grotesquebold; }
