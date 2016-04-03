@@ -1,3 +1,8 @@
+.wrapper {
+  width: 1440px;
+  max-width: 90%;
+  margin: 0 auto; }
+
 #banner {
   background-color: #e74c3c;
   background-image: url(../img/hamlet_design.png);

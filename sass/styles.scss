@@ -3,7 +3,14 @@ $red : #e74c3c;
 $brandonbold : brandon_grotesquebold;
 $brandon : brandon_grotesque_regularRg;
 
-//---------------------Styles-----------------------//
+//____________________Global Styles-----------------//
+.wrapper {
+    width: 1440px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+//---------------------Banner Styles-----------------------//
 #banner {
     background-color: $red;
     background-image: url(../img/hamlet_design.png);
