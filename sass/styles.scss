@@ -1,3 +1,25 @@
-p {
-    background-color: red;
+//---------------------Variables--------------------//
+$red : #e74c3c;
+$brandonbold : brandon_grotesquebold;
+$brandon : brandon_grotesque_regularRg;
+
+//---------------------Styles-----------------------//
+#banner {
+    background-color: $red;
+    background-image: url(../img/hamlet_design.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    float: right;
+    padding: 0 20px
+}
+
+strong {
+    font-family: brandon_grotesquebold
+}
+
+h1 {
+    font-family: brandon_grotesque_regularRg
 }

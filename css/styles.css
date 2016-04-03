@@ -1,3 +1,19 @@
-p {
-  background-color: red;
+#banner {
+  background-color: #e74c3c;
+  background-image: url(../img/hamlet_design.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  float: right;
+  padding: 0 20px;
+}
+
+strong {
+  font-family: brandon_grotesquebold;
+}
+
+h1 {
+  font-family: brandon_grotesque_regularRg;
 }
