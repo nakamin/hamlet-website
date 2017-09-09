@@ -2,7 +2,7 @@
 Website for 11U Hamlet Act 2 English project. Created by Anton Kaminsky.
 
 # Graphics
-All graphics on the website were created by Anton Kaminsky using Adobe Illustrator.
+All graphics on the website were created by Anton Kaminsky using Adobe Illustrator. They are showcased below.
 
 ![Looking Glass](https://raw.githubusercontent.com/nakamin/hamlet-website/gh-pages/img/analyze.png)
 
